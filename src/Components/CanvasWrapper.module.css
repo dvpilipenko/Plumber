@@ -1,0 +1,14 @@
+.canvasContainer {
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: var(--plumber-size-top-menu);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: calc(100% - var(--plumber-size-top-menu));
+}
+
+
